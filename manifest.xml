@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="pepper_dab-de57db" version="0.0.0">
+ <names>
+  <name lang="en_US">Pepper_Dab</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="en_US">can you dab</sentence>
+    <sentence lang="en_US">dab for me</sentence>
+    <sentence lang="en_US">are you cool</sentence>
+    <sentence lang="en_US">pepper can you dab</sentence>
+    <sentence lang="en_US">pepper dab for me</sentence>
+    <sentence lang="en_US">pepper are you cool</sentence>
+   </triggerSentences>
+   <autonomous>
+    <condition purpose="launchTrigger"><![CDATA[('BackBumperPressed'==1)]]></condition>
+   </autonomous>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>
